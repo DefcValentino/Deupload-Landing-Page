@@ -62,7 +62,6 @@ header .icon{
 }
 
 header .menu-list{
-   position: ;
     margin: 0 auto;
 }
 
@@ -95,28 +94,40 @@ header .menu-list{
         display: flex;
     }
 
+    button{
+        width:clamp(80px, 100%, 100px) ;
+        background-color: var(--fair-violet);
+        color: #FFF;
+        cursor: pointer;
+    }
+
+   
     header .menu-list{
         left: 0;
-        display: none;
+        display:none; /*display none to make invisible*/
         height: 50vh;
         width: 100%;
-        margin-top: 46px;
+        margin-top: 380px;
         justify-content: center;
         gap: 25px;
         position: absolute;
-        background-color: var(--secondary-color);
         transition: 1s ease;
-
     }
+
 
     .menu-list.active{
         display: flex;
     }
 
     header .menu{
+        width: 100%;
         display: flex;
+        align-items: center;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
         background-color: var(--secondary-color);
+        padding: 20px;
     }
 
     .menu a{
@@ -165,8 +176,6 @@ header .menu-list{
     font-size: clamp(12px, 5vw, 17px);
     font-weight: 500;
 }
-
-
 
 .team-container .fig-div{
     width: clamp(300px, 100%, 500px);
