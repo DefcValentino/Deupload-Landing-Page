@@ -1,9 +1,21 @@
 
-const menuNav = document.querySelector('.menu');
-const menuList = document.querySelector('.menu-list')
-const iconBtn = document.querySelector('.icon');
+const menuList = document.querySelector('.nav-list')
+const iconBtn = document.querySelector('.navBar');
 
 iconBtn.addEventListener ('click', ()=>{
   menuList.classList.toggle ('active');
+
 })
+
+
+
+
+
+
+
+
+
+
+
+
 

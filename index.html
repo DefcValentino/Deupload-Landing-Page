@@ -4,121 +4,311 @@
         <meta charset="UTF-8">
         <meta http-equiv="http-equiv" content="IE-edge">
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
-        <title>Vautify home page</title>
+        <title>Home</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!-- ---------------HEADER SECTION---------------- -->
-        <section id="head">
-            <header>
-                <h1>Vaultify</h1>
-                <nav class="menu-list">
-                    <ul class="menu">
-                        <l1><a href="index.html">Home</a></l1>
-                        <l1><a href="aboutus.html">AboutUs</a></l1>
-                        <l1><a href="#features">Features</a></l1>
-                        <l1><a href="team.html">OurTeam</a></l1>
-                        <button type="button">Sign In</button>
+         <!-- ---------------HEADER SECTION---------------- -->
+         <header>
+            <nav>
+                <div class="logo">
+                    <img src="./images/deupload.svg" alt="logo">
+                </div>
+
+                <div class="navBar">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Our Team</a></li>
                     </ul>
-                </nav>
-                <ion-icon class="icon" name="reorder-three-outline"></ion-icon>
-            </header>
-        </section>
 
 
-        <!-- -----------HERO SECTION----------- -->
-        <section id="hero">
+                    <div class="nav-left">
+                        <p class="app">App</p>
+                        <p class="lang">English</p>
+                        <p class="signin-button"> <a href="#">Sign In</a></p>
+                        <p class="accountbutton"><a href="#">Create Account</a></p>
+                    </div>
+                </div>
+
+               
+            </nav>
+         </header>
+
+
+         <!-- ------------HOME HERO-------------- -->
+          <section id="hero">
             <div class="hero-container">
                 <article>
-                    <h1>Experience the next generation of data storage with IPFS. Join the movement towards a more secure, 
-                    efficient, and decentralized internet</h1>
-                    <p>We provide a decentralized, secure, and efficient solution for all your storage needs,Step into the future of
-                         data storage with Vaultify</p>
+                    <div class="hero-content">
+                        <h1>Extend the content on IPFS with APIs</h1>
+                        <p>
+                            Building apps on IPFS can be hard. Deupload makes it easy. Our developer tools, first-party SDKs,
+                             and integrated developer docs let you quickly build and deploy  in days.
+                        </p>
+                        <div class="buttons">
+                            <p class="accountbutton started">Getting Started</p>
+                            <p class="accountbutton document">Document</p>
+                        </div>
+                      
+                    </div>
                 </article>
-                <fig class="hero-image">
-                    <img src="images/hero 2.jpg" alt="#">
+
+                <fig class="heroimage">
+                    <img src="./images/home hero.svg">
                 </fig>
+            </div>
+          </section>
+
+          <!-- ------------------API  SECTION---------------- -->
+        <section id="api">
+            <div class="api-container">
+                <article class="top-content">
+                    <h1>See What you can do with APIs</h1>
+                    <p>You can go from idea to implementation quickly and easily. You’ll save time and write fewer lines of code<br> 
+                        with our SDKs, powerful core API, and thorough documentation.
+                    </p>
+                </article>
+
+                <article class="content-bottom">
+                    <div class="content-card">
+                        <p class="api-icon"><img src="./images/apiiocon1.svg"></p>
+                        <p class="content-name">Integration</p>
+                        <p class="content-para">Connect to other systems and take action files and folders like creating, reading,
+                             editing, moving, and deleting.
+                        </p>
+                        
+                    </div>
+
+                    <div class="content-card">
+                        <p class="api-icon"><img src="./images/apiicon2.svg"></p>
+                        <p class="content-name">Collaboration</p>
+                        <p class="content-para">Embed into any app and empower your teams to work with anyone on a single IPFS 
+                            file manament platform. 
+                        </p>
+                        
+                    </div>
+
+                    <div class="content-card">
+                        <p class="api-icon"><img src="./images/apiicon3.svg"></p>
+                        <p class="content-name">Build Your App</p>
+                        <p class="content-para">Building IPFS file management can be hard. Our developer tools let you quickly
+                             build and deploy content apps.
+                        </p>
+                    </div>
+                </article>
             </div>
         </section>
 
-        <!-- -----------DESCRIPTION SECTION------------- -->
-        <section id="brand">
-           <div class="brand-container">
-            
-            <article class="intro-para">
-                <fig>
-                    <img src="images/digi 2.jpg" alt="#">
+
+        <!-- -------------CODE INTEGRATION SECTION------------- -->
+        <section id="code">
+            <div class="code-container">
+                <fig class="codesnap">
+                    <img src="./images/apishot.png">
                 </fig>
-                <div class="intro-text">
-                    <h1>What is IPFS?</h1>
+
+                <article class="code-content">
+                    <h1>
+                        Start building your apps on IPFS with Deupload’s APIs and SDKs.
+                    </h1>
+
                     <p>
-                        The InterPlanetary File System (IPFS) is a decentralized storage network that transforms the way data is stored 
-                        and shared across the internet. Unlike
-                         traditional centralized storage solutions that rely on a single server, IPFS uses a distributed network of nodes
-                         to store data, ensuring greater resilience and 
-                        security.
+                        Aggregate data from many sources into your team’s workspace. Spend less time context switching, and 
+                        increase visibility across the software and services you rely on
                     </p>
+
+                    <div class="buttons">
+                        <p class="accountbutton start">Quit start</p>
+                        <p class="accountbutton live">Live Examples</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="guide">
+            <div class="guide-container">
+                <article class="guide-text">
+                    <h1>How does it work?</h1>
+                    <p>Our developer platform puts the power in your hands to create the tools to improve efficiency.<br> expand 
+                        functionality, and bring ideas to life.</p>
+                </article>
+
+                <div class="guide-column">
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/keysvg.svg"></p>
+                            <p class="api-use">Authentication</p>
+                        </div>
+
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Registration</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Login/Logout</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Reset password</p>
+                        </div>
+                    </div>
+
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/usersvg.svg"></p>
+                            <p class="api-use">Account</p>
+                        </div>
+
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png">Profile</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Access token</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Suscribtion</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Notification</p>
+                        </div>
+                    </div>
+
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/double user.svg"></p>
+                            <p class="api-use">Team</p>
+                        </div>
+
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Team management</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Invitation</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png"> Navigation</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
 
-            <article class="sec-para">
-                <h1>WHY CHOOSE IPFS? </h1>
-                <P>
-                    In a world where data security and accessibility are paramount, IPFS (InterPlanetary File System) stands out as 
-                    a groundbreaking solution. Here's why you
-                     should consider IPFS for your storage needs:
-                </P>
 
-                <h2>Security and Peace of Mind </h2>
-                <p>
-                    IPFS decentralizes data storage, spreading it across multiple nodes. This reduces the risk of data breaches and
-                     ensures your information is always accessible,
-	                even if some nodes go offline.
-                </p>
+                <div class="guide-column">
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/filesvg.svg"></p>
+                            <p class="api-use">File Upload</p>
+                        </div>
 
-                <h2>Speed and Efficiency</h2>
-                <p>
-                    With IPFS, data retrieval is faster and more efficient. Its peer-to-peer network and caching mechanisms ensure that you get the information you need without
-                    the usual delays.
-                </p>
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png">Upload File</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">File Editing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Zip file</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Browsing files</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Trash item</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Favorite folder</p>
+                        </div>
+                    </div>
 
-                <h2>Cost-Effective</h2>
-                <p>
-                    PPFS helps to Cut down on expenses by reducing reliance on centralized servers. IPFS leverages existing infrastructure, lowering costs while maintaining high standards of 
-                    performance.
-                </p>
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/sharesvg.svg"></p>
+                            <p class="api-use">Authentication</p>
+                        </div>
 
-                <h2>Freedom of Information</h2>
-                <p>
-                    With IPFS, data is distributed globally, making it difficult for any single entity to control or censor. This ensures that information remains freely accessible and uncensored.
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png">Edit sharing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">share browsing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Manage sharing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Share uploading</p>
+                        </div>
+                    </div>
 
-                </p>
-            </article>
+                    <div class="content-card api">
+                        <div class="guide-title">
+                            <p class="api-icon"><img src="./images/request svg.svg"></p>
+                            <p class="api-use">Authentication</p>
+                        </div>
 
-            <article class="benefits">
-                <h1>BENEFITS OF USING IPFS</h1>
-                <P><span>User-Friendly Interface :</span> Our intuitive and easy-to-use interface makes managing your data a breeze. Whether 
-                    you’re an individual user or a large organization, our platform is designed to meet your needs.
-                </P>
-
-                <P><span>Future-Ready Technology:</span> 
-                    As the world moves towards decentralized applications (dApps) and Web3 technologies, our platform is designed to
-                    support and integrate with these innovations, keeping you ahead of the curve.
-                </P>
-
-                <P><span>Faster Data Retrieval:</span> 
-                    Tired of waiting for files to load? IPFS speeds up data retrieval by using a peer-to-peer network, ensuring you 
-                    get your files quickly, no matter where you are. Faster access means more efficiency and less frustration.
-                </P>
-            </article>
-           </div>
+                        <div class="api-lists">
+                            <p class="api-list"><img src="./images/circle-check 1.png">File request management</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">File editing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">request browsing</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">File request management</p>
+                            <p class="api-list"><img src="./images/circle-check 1.png">Request uploading</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
 
-        <!-- -----------FEATURES SECTION ----------- -->
-         <section id="features">
+        <!-- ----------------INSOMNIA---------------->
+         <section id="insomnia">
+            <div class="insonia-container">
+                <h1 class="soniatext"><img src="./images/insomnialogo.svg">Insomnia</h1>
+                <fig class="vscode-photo">
+                    <img src="./images/insomnia2.png">
+                </fig>
+
+                <article class="code-article">
+                    <h1 class="code-text">API Development Tool</h1>
+                    <p>API Documentation in Insomnia client will bring you flexible and interactive experience while you are <br>working
+                         on your own application with Deupload API.</p>
+
+                         <div class="doc-button">
+                            <p class="accountbutton tool">Download API Tool</p>
+                            <p class="accountbutton doc">API Documentation</p>
+                         </div>
+                </article>
+            </div>
+         </section>
+
+
+
+         <section id="tools">
+            <div class="tool-container">
+                <div class="tool-rows">
+                    <div class="content-card reference">
+                        <p class="apitext">API Reference</p>
+                        <p>Leverage the power of our REST API <br>to bring IPFS file into your external<br> tools and products.</p>
+
+                        <div class="api-image">
+                            <p class="readbtn">Read documents<img src="./images/forward-arrow.svg"></p>
+                            <fig><img class="book" src="./images/booksglass.svg"></fig>
+                        </div>
+                    </div>
+
+                    <div class="content-card reference">
+                        <p class="apitext">Development kits</p>
+                        <p>We offer several official SDKs for<br> certain programming languages that<br> you can use in your apps.</p>
+
+                        <div class="api-image">
+                            <p class="readbtn download"><img src="./images/downloadicon.png">Download SDK</p>
+                            <fig><img src="./images/codinghand.svg"></fig>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-rows">
+                    <div class="content-card reference join">
+                        <p class="apitext join">Join our community</p>
+                        <p>Learn from others, share your work, and , <br> extend your tool set with a diverse group of <br> developers from
+                         around the world.</p>
+
+                        <div class="api-image join">
+                            <p class="accountbutton submit">Submit a question</p>
+                            <fig class="join-image"><img src="./images/groupwork.svg"></fig>
+                        </div>
+                    </div>
+
+                    <div class="content-card reference version">
+                        <p class="apitext">Changelog</p>
+                        <p>Keep track of changes and</br> upgrades to the Deupload API.</p>
+                        <p class="readbtn read"><img src="./images/forward-arrow.svg">Release</p>
+
+                        <div class="api-image">
+                            <fig><img src="./images/versioncontrol.svg"></fig>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+          <!-- -----------FEATURES SECTION ----------- -->
+          <section id="features">
             
             <div class="features-container">
                 <article>
@@ -150,13 +340,33 @@
             </div>
          </section>
 
-         <!-- -----------FOOTER SECTION----------- -->
-          <section id="footer">
+         <!-- ---------------FORM SECTION---------------- -->
+         <section id="form">
+            <div class="form-container">
+                <article>
+                    <p class="p-text">Sign up for developer updates</p>
+                    <p class="b-text">Try something fresh and new on next version</p>
+
+                    <div class="form-wrapper">
+                        <input name="email" type="email" placeholder="Enter your email">
+                        <p class="sign">Sign Up</p>
+                    </div>
+
+                    <p class="privacy">You can unsubscribe at any time. Read our <span>privacy policy</span></p>
+                </article>
+
+                <fig class="form-image">
+                    <img src="./images/formpic.svg">
+                </fig>
+            </div>
+         </section>
+
+        <!-- -----------FOOTER SECTION----------- -->
+        <section id="footer">
             <div class="footer-container">
                 <div class="footer-row">
                     <article class="define">
                         <h1>What is Vaultify?</h1>
-
                         <p>
                            Vaultify is an innovative platform that leverages IPFS (InterPlanetary File System) technology to 
                            provide secure, decentralized data storage solutions. By distributing data across multiple nodes, 
@@ -197,6 +407,7 @@
                 <span><p>&COPY;  Vaultify. Powered by Valentine Okonkwo</p></span>
             </div>
           </section>
+
 
           <script src="main.js"></script>
           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
